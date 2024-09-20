@@ -1,4 +1,4 @@
-# [Analog-Digital conversion circuit with an interface to a FPGA development board for an X-ray detector module of a 3D breast CT prototype.]
+# [Analog-Digital conversion circuit with an interface to a FPGA development board for an X-ray detector module of a 3D breast CT prototype]
 
 
 ## Project Overview
