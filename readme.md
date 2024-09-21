@@ -23,6 +23,7 @@ This project focuses on the design and development of an ADC electronic circuit 
   
 ## Circuit Schematic
 Here is the circuit schematic designed in EAGLE:
+
 ![My Project Image](16-bits-ADC-Circuit-for-CMOS-Sensor/ADCschematic.png)
 
 
