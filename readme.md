@@ -39,30 +39,12 @@ Final designed PCB:
 ![ADC PCB](PCB.png)
 
 
-## How to Build and Test
-1. Download the schematic and PCB files from the `Schematics/` and `PCB-Layouts/` folders.
-2. Order or manufacture the PCB from the provided Gerber files.
-3. Assemble the components as per the schematic.
-4. Run the simulation files in **LTSpice** to verify the circuit's performance.
-5. Test the assembled circuit using an oscilloscope or a signal generator for verification.
-   
-## Simulation Results
-The following simulations were conducted using LTSpice. The circuit shows stable gain across the audio frequency range.
+## Interfacing with FPGA
 
-![Simulation Output](ADCschematic.png.png)
+The 16 bits digital data from the ADC is arranged in a particular sequence such that it gives a single pixel value from each three channels of CMOS sensor. Two  LabVIEW programs (VI) source code are written and complied, one on the FPGA also called “target” to collects the sensor digital data and the other on the computer system referred as “host”. This data is received and saved to the host memory in the same order by implementing a FIFO method (First In First Out) that organize and prioritize the data with the time.
 
-## PCB Layout
-The PCB layout was created using KiCad. Below is a preview of the PCB design:
+Communication and data flow between host computer and FPGA:
+![FPGA Interfacing](FPGA.png)
 
-![PCB Layout](Images/pcb_layout.png)
-## Bill of Materials (BOM)
-- **R1, R2** - 10kΩ Resistor
-- **C1** - 100nF Capacitor
-- **Q1** - 2N2222 Transistor
-- **Op-Amp** - LM358
-## Future Improvements
-- Implement feedback control for better signal stability.
-- Improve power efficiency by optimizing transistor biasing.
-- Add digital control for adjustable gain.
 ## Contact
-For any questions, feel free to contact me at: [your-email@example.com](mailto:your-email@example.com).
+For any questions, feel free to contact me at: [m.ahmerkhan@outlook.de](mailto:m.ahmerkhan@outlook.de).
