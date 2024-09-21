@@ -3,6 +3,7 @@
 
 ## Project Overview
 This project focuses on the design and development of an ADC electronic circuit for a CMOS sensor coupled with CsI:Tl scintillating crystals to detects X-rays. The circuit samples analog pixels data from the sensor, crucial for analyzing beam geometry and sensor-scintillator response. An FPGA interfaces with the circuit to process the digital data from three sensor channels and store it on a host computer for image processing and analysis.
+![Project Overview](SystemSetup.png)
 
 ## Features
 - 16-bits ADC circuit for 3 channel CMOS sensor.
