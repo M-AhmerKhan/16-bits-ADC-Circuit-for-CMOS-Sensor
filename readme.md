@@ -21,9 +21,9 @@ This project focuses on the design and development of an ADC electronic circuit 
 - **MATLAB** for anylyzing sesor data.
 - 
 ## Circuit Schematic
-Here is the circuit schematic designed in KiCad:
+Here is the circuit schematic designed in EAGLE:
 
-![Circuit Schematic](Images/circuit_schematic.png)
+ADC Schematic.png
 
 ## How to Build and Test
 1. Download the schematic and PCB files from the `Schematics/` and `PCB-Layouts/` folders.
