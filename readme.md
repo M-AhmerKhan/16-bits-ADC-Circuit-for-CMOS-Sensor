@@ -19,11 +19,12 @@ This project focuses on the design and development of an ADC electronic circuit 
 - **Arduino** for SPI
 - **Oscilloscope** for signal testing.
 - **MATLAB** for anylyzing sesor data.
-- 
+
+  
 ## Circuit Schematic
 Here is the circuit schematic designed in EAGLE:
 
-(16-bits-ADC-Circuit-for-CMOS-Sensor/ADC schematic.png)
+[ADC Schematic](16-bits-ADC-Circuit-for-CMOS-Sensor/ADC schematic.png)
 
 ## How to Build and Test
 1. Download the schematic and PCB files from the `Schematics/` and `PCB-Layouts/` folders.
