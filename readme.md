@@ -32,7 +32,10 @@ The PCB layout was created using EAGLE. Below is a preview of the PCB design:
 ![ADC PCB Layout](PCBLayout.png)
 ![ADC PCB Layout](PCBLayoutGND.png)
 
+## Designed PCB
+Final designed PCB:
 
+![ADC PCB](PCB.png)
 
 
 ## How to Build and Test
