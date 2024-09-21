@@ -24,7 +24,13 @@ This project focuses on the design and development of an ADC electronic circuit 
 ## Circuit Schematic
 Here is the circuit schematic designed in EAGLE:
 
-![My Project Image](ADCschematic.png)
+![ADC Schematic](ADCschematic.png)
+
+## PCB Layout
+The PCB layout was created using EAGLE. Below is a preview of the PCB design:
+
+![ADC PCB Layout](Images/pcb_layout.png)
+
 
 
 
