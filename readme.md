@@ -23,8 +23,8 @@ This project focuses on the design and development of an ADC electronic circuit 
   
 ## Circuit Schematic
 Here is the circuit schematic designed in EAGLE:
+![My Project Image](ADC Schematic.png)
 
-![ADC Schematic](ADC schematic.png)
 
 ## How to Build and Test
 1. Download the schematic and PCB files from the `Schematics/` and `PCB-Layouts/` folders.
