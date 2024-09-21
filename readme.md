@@ -29,7 +29,7 @@ Here is the circuit schematic designed in EAGLE:
 ## PCB Layout
 The PCB layout was created using EAGLE. Below is a preview of the PCB design:
 
-![ADC PCB Layout](Images/pcb_layout.png)
+![ADC PCB Layout](PCB Layout (2).png)
 
 
 
