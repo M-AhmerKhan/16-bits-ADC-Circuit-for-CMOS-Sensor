@@ -24,7 +24,7 @@ This project focuses on the design and development of an ADC electronic circuit 
 ## Circuit Schematic
 Here is the circuit schematic designed in EAGLE:
 
-![My Project Image](16-bits-ADC-Circuit-for-CMOS-Sensor/ADCschematic.png)
+![My Project Image](ADCschematic.png)
 
 
 
@@ -38,7 +38,7 @@ Here is the circuit schematic designed in EAGLE:
 ## Simulation Results
 The following simulations were conducted using LTSpice. The circuit shows stable gain across the audio frequency range.
 
-![Simulation Output](16-bits-ADC-Circuit-for-CMOS-Sensor/ADCschematic.png.png)
+![Simulation Output](ADCschematic.png.png)
 
 ## PCB Layout
 The PCB layout was created using KiCad. Below is a preview of the PCB design:
